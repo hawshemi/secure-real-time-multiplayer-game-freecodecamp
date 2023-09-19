@@ -3,3 +3,9 @@
 ## Live: https://secure-real-time-multiplayer-game-freecodecamp.hawshemi.repl.co
 
 
+For running locally create a file named `.env` with the code below:
+```
+PORT:3000
+NODE_ENV=test
+```
+You should set the DB to your MongoDB URI database.
