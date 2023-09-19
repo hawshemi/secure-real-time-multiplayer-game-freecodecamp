@@ -1,0 +1,28 @@
+body {
+  margin: 20px;
+}
+
+code {
+  background: #d0d0d5;
+}
+
+canvas {
+  margin: auto;
+  border: 10px solid #1e1e1e;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.control-center {
+  display: flex;
+  justify-content: space-around;
+}
